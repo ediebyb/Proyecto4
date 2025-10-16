@@ -14,4 +14,4 @@ df.to_csv(file_path, index=False)
 df_cloud = pd.read_csv(file_path)
 print(df_cloud.describe())  # Análisis estadístico
 
-print("Reflexión: Simulé integración cloud (Módulos 08-09), usando storage local como proxy para S3. En producción, usaría boto3; esto muestra escalabilidad para datos distribuidos.")
+print("Reflexión: Simulé integración cloud, usando storage local como proxy para S3. En producción, usaría boto3; esto muestra escalabilidad para datos distribuidos.")
